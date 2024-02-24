@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+
 nav {
     display: flex;
     flex-direction: row;
@@ -11,14 +15,13 @@ nav {
     height: 115;}
 
 .logo {
-    display: flex;}
+    margin-left: 50px;}
 .logo img {
-    width: 30px;
-    height: 30px;
+    width: 318px;
+    height: 44px;
     padding-top: 20px;}
 
 .logo h1 {
-    background-color: aqua;
     padding-top: 20px;
     width: 318px; }    
 
@@ -32,6 +35,7 @@ nav {
 
 body {
     width: 1444px;
+    margin: 0px;
 }
 .img img {
     width: 733px;
@@ -54,6 +58,18 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.new h1{
+    width: 608px;
+    height: 160px;
+    font-family: "Roboto Slab", serif
+    }
+
+.new p {
+    width: 608px;
+    height: 64px;
+}
+
 .new button {
     width: 219px;
     height: 64px;
@@ -201,24 +217,18 @@ body {
     border-radius: 16px;
     margin-left: 300px;
     margin-top: 100px;  
-    
-}
+    padding: 10px;  }
 
 .org {
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
-    height: 500px;
-
-}
+    height: 500px;  }
 .Dilon {
     width: 97px;
     height: 52px;
     display: flex;
-    flex-direction: column;
-
-
-}
+    flex-direction: column; }
 
 
 
@@ -229,3 +239,408 @@ body {
 .Kas h8 {color: gray;}
 
 .mem h2{padding-left: 50px;}
+.oval img{width: 80px; height: 80px; }
+.sent h1{width: 644px; height: 128px; }
+.txt p{width: 644px; height: 78px; }
+.green1 {
+    width: 644px;
+    height: 334px;
+    margin-top: 150px ;}
+
+.jo img {
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+}
+
+.jas {
+    width: 484px;
+    height: 412px;  
+    border-style: solid;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    margin-left: 35px;
+}
+
+.pic {
+    display: flex;
+}
+
+.cm {
+    
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;    
+}
+
+.jas button {
+    width: 404px;
+    height: 56px;
+    color: white;
+    background-color: black;
+    border-radius: 16px;
+    margin-left: 30px;
+}    
+.com h4 {
+    width: 62px;
+    height: 24px;
+}
+
+.com h3 {
+    width: 114px;
+    height: 32px; }
+    
+.sh h4 {width: 60px; height: 24px;}
+.sh h3 {width: 27px; height: 32px;}
+
+.com {
+    margin-right: 130px;}
+.sh {
+    margin-right: 150px;}
+
+.jj {
+    margin-left: 40px;}
+
+.row {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 100px;}
+
+.green2 {
+    width: 644px;
+    height: 334px;
+    margin-top: 50px;
+    margin-left: 30px; }
+
+.top img {
+    width: 80px;
+    height: 80px; }
+
+.eng h1 {
+    width: 644px;
+    height: 128px; }
+
+.you p {
+    width: 644px;
+    height: 78px;}
+
+.up {
+    width: 560px;
+    height: 164px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 16px;
+}
+
+.wr {
+    display: flex;
+    justify-content: space-around;
+}
+.wr p{
+
+    width: 79px;
+    height: 32px;
+    background-color: green;
+    color: white;
+    border-radius: 40px;
+    padding-top: 9px;
+    padding-left: 8px;}
+
+.up h4 {
+    padding-left: 50px; }
+    
+.jason {
+    width: 301px;
+    height: 40px;
+    display: flex;
+    
+    
+}    
+.alex {
+    width: 301px;
+    height: 40px;
+    display: flex;
+}
+
+.liz {
+    width: 301px;
+    height: 40px;
+    display: flex;}
+
+.app {
+    width: 260px;
+    height: 288px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 16px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 50px; 
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;}
+
+.rose {
+    width: 240px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-color: green;
+    border-radius: 16px;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+.rose img {width: 60px; height: 60px;}
+
+.cards {
+    margin-top: 200px;
+}
+.box {
+    width: 644px;
+    height: 500px;
+}
+
+.rose button {
+    color: white;
+    background-color: black;
+    border-radius: 16px;
+    width: 192px;
+    height: 44px;
+    margin-bottom: 9px;
+}
+
+.rose p {
+    color: gray;
+}
+
+.rose h3 {
+    width: 200px;}
+
+.help h1 {
+    width: 895px;
+    height: 64px;
+    margin-left: 500px;
+    margin-top: 200px; }
+
+.help p {
+    width: 895px;
+    height: 52px;
+    text-align: center;
+    margin-left: 300px; }
+
+.card5{
+    width: 427px;
+    height: 216px;
+    border-style: solid;
+    border-radius: 16px;
+    border-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 100px;}
+
+
+.card5 h2 {
+    width: 379px;
+    height: 24px;
+    padding-left: 30px;
+}
+
+.card5 h3 {
+    width: 390px;
+    height: 150px;
+    padding-left: 30px;
+    margin-top: 0px;}
+
+.may h5 {
+    padding-left: 10px;
+    margin-left: 30px;
+    color: white;
+    background-color: green;
+    border-radius: 40px;
+    width: 70px;
+    height: 24px;
+    padding-top: 0px;
+    text-align: center;
+}
+    
+.card5 p {
+    width: 100px; 
+    padding-top: 10px;
+    color: black;
+}
+    
+.may{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.may p {
+    margin-right: 1500px;
+    padding-left: 20px;
+}
+
+.card6 {
+    width: 427px;
+    height: 216px;
+    border-style: solid;
+    border-radius: 16px;
+    border-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.card6 h2 {
+    width: 379px;
+    height: 24px;
+    padding-left: 30px;
+}
+
+.card6 h3 {
+    width: 390px;
+    height: 150px;
+    padding-left: 30px;
+    margin-top: 0px;}
+
+.may2 h5 {
+    padding-left: 10px;
+    margin-left: 30px;
+    color: white;
+    background-color: green;
+    border-radius: 40px;
+    width: 70px;
+    height: 24px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.card6 p {
+    width: 100px;
+    height: 14px;
+    padding-top: 10px;
+    color: black;
+}
+.may2 {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.may2 p {
+    padding-left: 20px; }
+
+.card7 {
+        width: 427px;
+        height: 216px;
+        border-style: solid;
+        border-radius: 16px;
+        border-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-top: 100px;} 
+        
+.card7 h2 {
+            width: 379px;
+            height: 24px;
+            padding-left: 30px;}
+
+.card7 h3 {
+width: 390px;
+height: 150px;
+padding-left: 30px;
+margin-top: 0px;}
+
+.may3 h5 {
+    padding-left: 10px;
+    margin-left: 30px;
+    color: white;
+    background-color: green;
+    border-radius: 40px;
+    width: 70px;
+    height: 24px;
+    padding-top: 0px;
+    text-align: center;
+}
+.card7 p {
+    width: 100px;
+    height: 14px;
+    padding-top: 10px;
+    color: black;
+}
+.may3 {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.cardss { 
+    margin-top: 100px;
+    display: flex;}
+
+.but button {
+    width: 219px;
+    height: 64px;
+    color: white;
+    background-color: green;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+
+.bt button{
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    width: 134px;
+    height: 64px;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.end p{
+    width: 644px;
+    height: 52px; }
+
+.son {
+    display: flex;
+    flex-direction: column;
+}
+
+.finish {
+    display: flex;
+    margin-top: 200px;
+    width: 1328px;}
+
+.ft {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 30px; }
+
+footer {
+    width: 1328px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    
+.endd {
+    width: 468px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;}
