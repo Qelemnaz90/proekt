@@ -681,7 +681,7 @@ footer {
 
 
 
-    @media only screen and (min-width: 360px) {
+    @media only screen and (max-width: 360px) {
     body {
         width: 360px;
         height: 735px;}
@@ -769,6 +769,7 @@ footer {
         flex-direction: column;
         justify-content: space-evenly;
         margin-left: 30px;
+        margin-top: 100px;
 }
 
     .cards .card1 {
