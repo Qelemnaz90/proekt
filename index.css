@@ -681,7 +681,7 @@ footer {
 
 
 
-    @media only screen and (max-width: 360px) {
+    @media only screen and (min-width: 360px) {
     body {
         width: 360px;
         height: 735px;}
@@ -710,11 +710,13 @@ footer {
             width: 37.06px;
             height: 28px;
             margin-top: 40px;
+            margin-right: 40px;
     }            
 
     .burger {display: flex;
                 flex-direction: row;
             justify-content: space-between;
+            width: 330px;
             }
 
     .one {
