@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 
 
 
@@ -20,6 +20,16 @@ nav {
     width: 318px;
     height: 44px;
     padding-top: 20px;}
+
+.l img {
+    width: 68px;
+    height: 36px;
+    display: none;}
+
+.menu img {
+    width:  37.6px;
+    height: 28px;
+    display: none;}
 
 .logo h1 {
     padding-top: 20px;
@@ -195,14 +205,13 @@ body {
 .users {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content:flex-start;
+    height: 300px;
 }
 .users img {
     width: 72px;
     height: 72px;
-    border-radius: 50%;
-    
-}
+    border-radius: 50%;}
 
 .hami {
     display: flex;
@@ -217,7 +226,7 @@ body {
     border-radius: 16px;
     margin-left: 300px;
     margin-top: 100px;  
-    padding: 10px;  }
+    padding: 30px;  }
 
 .org {
     display: flex;
@@ -228,9 +237,18 @@ body {
     width: 97px;
     height: 52px;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    justify-content: space-evenly; }
 
+.Dilon h4{
+    font-family: "Roboto Serif", serif, 24x;
+    font-style: italic;}
+.Anna h4 {   font-family: "Roboto Serif", serif, 24x;
+    font-style: italic;}        
 
+.Kas h4 {
+    font-family: "Roboto Serif", serif, 24x;
+    font-style: italic;}
 
 .Dilon h8 {color: gray;}
 
@@ -356,20 +374,30 @@ body {
 .jason {
     width: 301px;
     height: 40px;
-    display: flex;
+    display: flex; }
     
-    
-}    
+.jason h3 {
+    font-family: "Roboto Serif", serif, 20x;
+    font-style: italic;}
+
 .alex {
     width: 301px;
     height: 40px;
-    display: flex;
-}
+    display: flex;}
+
+.alex h3{
+    font-family: "Roboto Serif", serif, 20x;
+    font-style: italic;}
 
 .liz {
     width: 301px;
     height: 40px;
     display: flex;}
+
+.liz h3 {
+    font-family: "Roboto Serif", serif, 20x;
+    font-style: italic;
+}    
 
 .app {
     width: 260px;
@@ -460,7 +488,7 @@ body {
     padding-left: 30px;
     margin-top: 0px;}
 
-.may h5 {
+.may button {
     padding-left: 10px;
     margin-left: 30px;
     color: white;
@@ -471,24 +499,24 @@ body {
     padding-top: 0px;
     text-align: center;
 }
-    
-.card5 p {
-    width: 100px; 
-    padding-top: 10px;
-    color: black;
-}
+
     
 .may{
     display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
+    justify-content: space-between; }
 
 .may p {
-    margin-right: 1500px;
-    padding-left: 20px;
-}
+    width: 120px;
+    height: 80px;
+    color: black;
+    padding-top: 5px;
+    margin-top: 3px;
+    font-family: "Roboto Serif", serif, 16x;
+    font-style: italic;
+    
+}    
+
+
 
 .card6 {
     width: 427px;
@@ -514,7 +542,7 @@ body {
     padding-left: 30px;
     margin-top: 0px;}
 
-.may2 h5 {
+.may2 button {
     padding-left: 10px;
     margin-left: 30px;
     color: white;
@@ -527,18 +555,20 @@ body {
 }
 
 .card6 p {
-    width: 100px;
-    height: 14px;
-    padding-top: 10px;
+    width: 120px;
+    height: 80px;
+    padding-top: 5px;
     color: black;
+    margin-top: 3px;
+    font-family: "Roboto Serif", serif, 16x;
+    font-style: italic;
 }
 .may2 {
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-between;
 }
 
-.may2 p {
-    padding-left: 20px; }
+
 
 .card7 {
         width: 427px;
@@ -562,7 +592,7 @@ height: 150px;
 padding-left: 30px;
 margin-top: 0px;}
 
-.may3 h5 {
+.may3 button {
     padding-left: 10px;
     margin-left: 30px;
     color: white;
@@ -574,14 +604,17 @@ margin-top: 0px;}
     text-align: center;
 }
 .card7 p {
-    width: 100px;
-    height: 14px;
-    padding-top: 10px;
+    width: 120px;
+    height: 80px;
     color: black;
+    padding-top: 5px;
+    margin-top: 3px;
+    font-family: "Roboto Serif", serif, 16x;
+    font-style: italic;
 }
 .may3 {
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-between
 }
 
 .cardss { 
@@ -644,3 +677,137 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding-top: 100px;}
+
+
+
+
+    @media only screen and (max-width: 360px) {
+    body {
+        width: 360px;
+        height: 735px;}
+
+        * {
+            box-sizing: border-box;}  
+
+    nav { display: none;
+            margin: 0%;  }
+
+    .l { display: block;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;   }
+    
+    .l img {
+        display: block;
+        width: 68px;
+        height: 40px;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+        
+
+    .menu img { display: block;
+            width: 37.06px;
+            height: 28px;
+            margin-top: 40px;
+    }            
+
+    .burger {display: flex;
+                flex-direction: row;
+            justify-content: space-between;
+            }
+
+    .one {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .one .img img {
+        width: 325px;
+        height: 234px;
+        margin: 20px;
+    }
+    
+    .one .new {
+        width: 291px;
+        height: 235px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 20px 20px 20px 20px;
+        padding: 10px;    }
+
+    .new p {
+        width: 291px;
+        height: 109px;}
+
+    .new h1 {
+        width: 276px;
+        height: 80px;
+    }    
+
+    .reim {
+        width: 291px;
+        height: 325px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;}
+
+    .reim h1{ width: 266px;
+                height: 87px;
+                margin-left: 60px;}
+
+    .reim p { width: 291px;
+                height: 109px;
+                margin-left: 60px;}
+
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 30px;
+}
+
+    .cards .card1 {
+        width: 319px;
+        height: 287px;}
+
+
+    .cards .card2 {
+            width: 319px;
+            height: 287px;}
+
+            
+    .cards .card3 {
+        width: 319px;
+        height: 287px;}
+
+    .org {
+        display: none;
+    }
+
+    .row {
+        display: none;
+    }
+
+    .cardss {
+        display: none;
+    }
+
+    .help {
+        display: none;
+    }
+
+    .cardss{
+        display: none;
+    }
+
+    footer {display: none;}
+    .finish {display: none;}
+    .bt {display: none;}
+    .jas {display: none;}
+    .green2 {display: none;}    
+    .box {display: none;}
+
+            }
