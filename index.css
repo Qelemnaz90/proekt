@@ -814,3 +814,139 @@ footer {
     .box {display: none;}
 
             }
+
+@media only screen and (max-width: 420px) { 
+    
+    body {
+        width: 420px;
+        height: 735px;}
+
+        * {
+            box-sizing: border-box;}  
+
+    nav { display: none;
+            margin: 0%;  }
+
+    .l { display: block;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;   }
+    
+    .l img {
+        display: block;
+        width: 68px;
+        height: 40px;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+        
+
+    .menu img { display: block;
+            width: 37.06px;
+            height: 28px;
+            margin-top: 40px;
+            margin-right: 40px;
+    }            
+
+    .burger {display: flex;
+                flex-direction: row;
+            justify-content: space-between;
+            width: 330px;
+            }
+
+    .one {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .one .img img {
+        width: 325px;
+        height: 234px;
+        margin: 20px;
+    }
+    
+    .one .new {
+        width: 291px;
+        height: 235px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 20px 20px 20px 20px;
+        padding: 10px;    }
+
+    .new p {
+        width: 291px;
+        height: 109px;}
+
+    .new h1 {
+        width: 276px;
+        height: 80px;
+    }    
+
+    .reim {
+        width: 291px;
+        height: 325px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;}
+
+    .reim h1{ width: 266px;
+                height: 87px;
+                margin-left: 60px;}
+
+    .reim p { width: 291px;
+                height: 109px;
+                margin-left: 60px;}
+
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 30px;
+        margin-top: 100px;
+}
+
+    .cards .card1 {
+        width: 319px;
+        height: 287px;}
+
+
+    .cards .card2 {
+            width: 319px;
+            height: 287px;}
+
+            
+    .cards .card3 {
+        width: 319px;
+        height: 287px;}
+
+    .org {
+        display: none;
+    }
+
+    .row {
+        display: none;
+    }
+
+    .cardss {
+        display: none;
+    }
+
+    .help {
+        display: none;
+    }
+
+    .cardss{
+        display: none;
+    }
+
+    footer {display: none;}
+    .finish {display: none;}
+    .bt {display: none;}
+    .jas {display: none;}
+    .green2 {display: none;}    
+    .box {display: none;}
+
+           
+}
