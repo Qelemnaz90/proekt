@@ -44,9 +44,8 @@ nav {
 
 
 body {
-    width: 1444px;
-    margin: 0px;
-}
+    margin: 0px;}
+
 .img img {
     width: 733px;
     height: 720px;
@@ -67,12 +66,19 @@ body {
     padding-top: 100px;
     display: flex;
     flex-direction: column;
+    margin-left: 50px ;
 }
 
 .new h1{
     width: 608px;
     height: 160px;
-    font-family: "Roboto Slab", serif
+    color: rgb(48, 48, 49);
+font-family: Roboto;
+font-size: 70px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0%;
+text-align: left;
     }
 
 .new p {
@@ -81,15 +87,25 @@ body {
 }
 
 .new button {
-    width: 219px;
-    height: 64px;
+    width: 220px;
+    height: 200px;
     color: white;
+    border-style: solid;
+    background-color: green;
+    border-radius: 16px;
     background-color: green;
     margin-left: 50px;
     margin-top: 50px;}
 
 .reim h1 {
-    text-align: center;}
+    color: rgb(48, 48, 49);
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
 
 .reim p {
     width: 895px;
@@ -187,11 +203,32 @@ body {
 
 .k h1 {
     width: 644px;
-    height: 128px; }
+    height: 128px;
+width: 644px;
+height: 128px;
+left: 0;
+right: 0;
+top: 104px;
+bottom: 102px;
+color: rgb(48, 48, 49);
+font-family: Roboto;
+font-size: 48px;
+font-weight: 800;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: left;
+}
 
 .k p {
     width: 644px;
-    height: 78px; }
+    height: 78px; 
+    color: rgb(48, 48, 49);
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: -2%;
+text-align: left;}
 
 .names {
     display: flex;
@@ -256,7 +293,15 @@ body {
 
 .Kas h8 {color: gray;}
 
-.mem h2{padding-left: 50px;}
+.mem h2{padding-left: 50px;
+    color: rgb(48, 48, 49);
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -2%;
+    text-align: left;
+}
 .oval img{width: 80px; height: 80px; }
 .sent h1{width: 644px; height: 128px; }
 .txt p{width: 644px; height: 78px; }
@@ -321,6 +366,24 @@ body {
 
 .jj {
     margin-left: 40px;}
+.jj h3 {
+    color: rgb(48, 48, 49);
+font-family: Roboto;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: -2%;
+text-align: left;
+}
+.jj p {
+    color: rgb(102, 100, 94);
+font-family:  "Roboto",sans-serif;
+font-size: 16px;
+font-weight: 250;
+line-height: 24px;
+letter-spacing: -2%;
+text-align: left;
+}
 
 .row {
     display: flex;
@@ -455,8 +518,15 @@ body {
 .help h1 {
     width: 895px;
     height: 64px;
-    margin-left: 500px;
-    margin-top: 200px; }
+    margin-left: 300px;
+    margin-top: 200px;
+    color: rgb(48, 48, 49);
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;}
 
 .help p {
     width: 895px;
@@ -680,146 +750,11 @@ footer {
 
 
 
-
-    @media only screen and (max-width: 360px) {
-    body {
-        width: 360px;
-        height: 735px;}
-
-        * {
-            box-sizing: border-box;}  
-
-    nav { display: none;
-            margin: 0%;  }
-
-    .l { display: block;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;   }
-    
-    .l img {
-        display: block;
-        width: 68px;
-        height: 40px;
-        margin-left: 40px;
-        margin-top: 40px;
-    }
-        
-
-    .menu img { display: block;
-            width: 37.06px;
-            height: 28px;
-            margin-top: 40px;
-            margin-right: 40px;
-    }            
-
-    .burger {display: flex;
-                flex-direction: row;
-            justify-content: space-between;
-            width: 330px;
-            }
-
-    .one {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .one .img img {
-        width: 325px;
-        height: 234px;
-        margin: 20px;
-    }
-    
-    .one .new {
-        width: 291px;
-        height: 235px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin: 20px 20px 20px 20px;
-        padding: 10px;    }
-
-    .new p {
-        width: 291px;
-        height: 109px;}
-
-    .new h1 {
-        width: 276px;
-        height: 80px;
-    }    
-
-    .reim {
-        width: 291px;
-        height: 325px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;}
-
-    .reim h1{ width: 266px;
-                height: 87px;
-                margin-left: 60px;}
-
-    .reim p { width: 291px;
-                height: 109px;
-                margin-left: 60px;}
-
-
-    .cards {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        margin-left: 30px;
-        margin-top: 100px;
-}
-
-    .cards .card1 {
-        width: 319px;
-        height: 287px;}
-
-
-    .cards .card2 {
-            width: 319px;
-            height: 287px;}
-
-            
-    .cards .card3 {
-        width: 319px;
-        height: 287px;}
-
-    .org {
-        display: none;
-    }
-
-    .row {
-        display: none;
-    }
-
-    .cardss {
-        display: none;
-    }
-
-    .help {
-        display: none;
-    }
-
-    .cardss{
-        display: none;
-    }
-
-    footer {display: none;}
-    .finish {display: none;}
-    .bt {display: none;}
-    .jas {display: none;}
-    .green2 {display: none;}    
-    .box {display: none;}
-
-            }
-
 @media only screen and (max-width: 420px) { 
     
     body {
         width: 420px;
-        height: 735px;}
+    }
 
         * {
             box-sizing: border-box;}  
@@ -837,8 +772,8 @@ footer {
         width: 68px;
         height: 40px;
         margin-left: 40px;
-        margin-top: 40px;
-    }
+        margin-top: 40px;}
+
         
 
     .menu img { display: block;
@@ -846,6 +781,7 @@ footer {
             height: 28px;
             margin-top: 40px;
             margin-right: 40px;
+            margin-right: 5px;
     }            
 
     .burger {display: flex;
@@ -860,19 +796,18 @@ footer {
     }
 
     .one .img img {
-        width: 325px;
+        width: 200px;
         height: 234px;
-        margin: 20px;
+        margin-right: 120px;
     }
     
     .one .new {
-        width: 291px;
-        height: 235px;
+        width: 100px;
+        height: 200px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        margin: 20px 20px 20px 20px;
-        padding: 10px;    }
+        padding: 50px; }
 
     .new p {
         width: 291px;
@@ -888,7 +823,8 @@ footer {
         height: 325px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;}
+        justify-content: space-around;
+        margin-top: 90px;}
 
     .reim h1{ width: 266px;
                 height: 87px;
@@ -902,7 +838,7 @@ footer {
     .cards {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        row-gap: 100px;
         margin-left: 30px;
         margin-top: 100px;
 }
@@ -910,6 +846,20 @@ footer {
     .cards .card1 {
         width: 319px;
         height: 287px;}
+        .cards p {
+            height: 60px;
+            width: 250px;
+            padding-top: 40px;
+            padding-left: 40px;}
+
+        .cards h3 {
+            padding-left: 50px;
+            margin-left: 40px;
+        }    
+
+    .cards img{
+        padding-left: 90px;
+    }        
 
 
     .cards .card2 {
@@ -919,7 +869,8 @@ footer {
             
     .cards .card3 {
         width: 319px;
-        height: 287px;}
+        height: 287px;
+    }
 
     .org {
         display: none;
@@ -937,16 +888,11 @@ footer {
         display: none;
     }
 
-    .cardss{
-        display: none;
-    }
 
     footer {display: none;}
     .finish {display: none;}
     .bt {display: none;}
     .jas {display: none;}
     .green2 {display: none;}    
-    .box {display: none;}
+    .box {display: none;}}
 
-           
-}
